@@ -1,0 +1,143 @@
+/* Reset CSS */
+ 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header {
+    height: 72px;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    background-color: #DCE9E2;
+}
+
+.logo {
+    font-size: 24px;
+    color: #061800;
+    /* box-shadow: 2px 2px 2px gray; */
+    text-shadow: 2px 2px 4px gray;
+}
+
+.logo-span {
+    color: #00856F;
+}
+
+.navig > a {
+    color: #00856F;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.navig > a:hover {
+    border-bottom: 2px solid red;
+    padding-bottom: 20px;
+}
+
+header > .nav-btn {
+    width: 190px;
+    border: 1px solid #00856F;
+    height: 38px;
+    border-radius: 40px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.hero-section {
+    display: flex;
+    padding: 0 100px;
+    height: 678px;
+    background-color:  #DCE9E2;
+}
+
+.left-hero-section {
+    /* border: 1px solid red; */
+    width: 60%;
+  padding-top: 80px;
+}
+
+.right-hero-section {
+    border: 1px solid blue;
+    width: 40%;
+    margin-left: -60px;
+    /* background-image: url("../images/hero-img.svg");
+    height: 400px;
+    width: 500px; */
+}
+
+.hero-text-up {
+    font-size: 14px;
+    font-weight: bold;
+    color: #00856F;
+}
+
+.hero-heading2 {
+    color: #212529;
+    font-size: 48px;
+    font-weight: bold;
+    font-family: 'DM Sans', sans-serif;
+    line-height: 50px;
+    margin: 30px 0;
+}
+
+.hero-text-down {
+    color:  #495057;
+    font-size: 18px;
+}
+
+.hero-btn {
+    background-color: #00856F;
+    width: 263px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   gap: 10px;
+   color: white;
+   border-radius: 40px;
+   margin-top: 30px;
+
+}
+
+.hero-image {
+    width: 420px;
+    height: 549px;
+}
+
+.stats-section {
+    display: flex;
+    border: 1px solid #DCE9E2;
+    background-color: white;
+    justify-content: space-evenly;
+    margin: 0 100px;
+    height: 210px;
+    align-items: center;
+    position: relative;
+    top: -175px;
+}
+
+.stats-section > div {
+
+    padding: 0 60px;
+}
+.stats-section > div > h3 {
+    font-size: 48px;
+    font-weight: bold;
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+}
+
+.stats-section > div > p {
+    font-size: 16px;
+    color: #00856F;
+}
+
+.middle-stat {
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
